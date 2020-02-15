@@ -15,5 +15,5 @@ Files.initStandalone();
 process.on('message', function(content) {
 	Files.initBotTest(content);
 });
-
+client.login(process.env.BOT_TOKEN);
 }
